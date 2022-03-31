@@ -1,11 +1,11 @@
 body {
   background: blanchedalmond;
 }
-
+/* 
 * {
   border: 1px solid mediumspringgreen;
 }
-
+ */
 div {
   min-width: 20px;
   min-height: 20px;
@@ -52,8 +52,7 @@ div {
   }
 
   .b {
-    max-width: 72%;
-    max-height: 64vh;
+    flex-grow: 3;
   }
 
   .a {
@@ -62,6 +61,5 @@ div {
   }
 
   .c {
-    max-width: 20%;
-    max-height: 64vh
+    flex-grow: 1;
   }

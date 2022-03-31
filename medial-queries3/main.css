@@ -1,3 +1,103 @@
 body {
   background: peachpuff;
 }
+
+* { 
+  border: 1px solid mediumspringgreen;
+}
+
+div {
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.a {
+  background-color: blueviolet;
+  min-height: 18vh;
+  width: auto;
+  margin: 5px 10px 5px 10px;
+  flex-grow: 1;
+}
+
+.row1.row2 {
+  display: flex;
+  width: 100%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  max-width: 600px;
+  flex-wrap: wrap;
+  flex: 18vh;
+}
+
+.b {
+  margin: 5px 5px 5px 10px;
+  max-width: 26%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  background-color: palevioletred;
+}
+.c {
+  margin: 5px 5px 5px 5px;
+  max-width: 26%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  background-color: rgb(13, 97, 45);
+}
+
+.d {
+  margin: 5px;
+  max-width: 26%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  background-color: rgb(112, 216, 126);
+}
+
+.e {
+  margin: 5px;
+  max-width: 26%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  background-color: rgb(197, 216, 112);
+}
+
+.f {
+  margin: 5px;
+  max-width: 26%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  background-color: rgb(102, 72, 151);
+}
+
+.g {
+  margin: 5px 10px 5px 5px;
+  max-width: 26%;
+  min-height: 18vh;
+  max-height: 18vh;
+  flex-grow: 1;
+  background-color: rgb(46, 49, 196);
+}
+
+.h {
+  background-color: blueviolet;
+  min-height: 36vh;
+  width: auto;
+  margin: 5px 10px 5px 10px;
+  flex-grow: 1;
+  
+}
