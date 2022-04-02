@@ -49,17 +49,17 @@ div {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .b {
-    flex-grow: 3;
-  }
+.b {
+    flex-grow: 3; 
+}
 
-  .a {
+.a {
     width: 100%;
     max-height: 32vh;
-  }
+}
 
-  .c {
+.c {
     flex-grow: 1;
-  }
+}
